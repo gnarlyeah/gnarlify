@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "4420jt" && password === "tagay111") (username === "ruvelasco@egencia.com" && password === "password1"){
+    if (username === "4420jt" && password === "tagay111"), (username === "ruvelasco@egencia.com" && password === "password1"){
         alert("You have successfully logged in.");
         location.replace("./Gnarlify.html");
     } else {
