@@ -14,3 +14,10 @@ loginButton.addEventListener("click", (e) => {
         loginErrorMsg.style.opacity = 1;
     }
 })
+  if (username === "ruvelasco.egencia.com" && password === "password1") {
+        alert("You have successfully logged in.");
+        location.replace("./Gnarlify.html");
+    } else {
+        loginErrorMsg.style.opacity = 1;
+    }
+})
